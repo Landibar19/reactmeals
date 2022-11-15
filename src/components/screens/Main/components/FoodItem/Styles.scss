@@ -1,0 +1,51 @@
+.food-items 
+{
+    width: 250px;
+    padding: 20px;
+}
+
+.food-items:hover
+{
+    box-shadow: 0 10 px 10px rgb(201, 25, 25);
+    cursor: pointer;
+}
+
+.details p:nth-child(1){
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details p:nth-child(2)
+{
+    color: rgb(17, 16, 16);
+    font-size: 0.8rem;
+}
+
+.details p:nth-child(3)
+{
+    color: rgb(192, 23, 23);
+    font-weight: bolx;
+}
+
+
+.details p:nth-child(4)
+{
+    color: rgb(192, 23, 23);
+    font-weight: bolx;
+    left:59%;
+    position: absolute;
+   
+   
+}
+
+.details button
+{
+    position: absolute;
+    padding: 5px 10px ;
+    border:none;
+    font-weight: bold;
+    background-color: rgb(174, 30, 30);
+    outline:none;
+    left: 65%;
+    border-radius: 10px;
+}
