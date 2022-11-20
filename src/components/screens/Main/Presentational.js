@@ -28,7 +28,7 @@ const Main = () => {
     return (
         <>
         
-        <NavBar setShow={setShow} size={cart.length}/>
+        <NavBar setShow={setShow} size={cart.length} />
 
         <div className="main-container">
             <div className="main-info">
@@ -50,11 +50,14 @@ const Main = () => {
 
          <Cart  cart={cart} setCart={setCart} handleChange={handleChange}/>
         )};
+     
+    
+        
         </> 
         
         
         
-    );
-};
+    )
+}
 
-export default Main
+export default Main;

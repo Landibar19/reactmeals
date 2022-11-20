@@ -10,11 +10,13 @@
 }
 
 .main-info {
+    display: flex;
+    justify-content: center;
     background-color:grey;
     position: absolute;
-    height: 200px;
-    width: 450px;
-    left: 25%;
+    height: 40%;
+    width: 60%;
+    left: 15%;
     top: 60%;
     border-radius: 5px;
     text-align: center;

@@ -18,4 +18,4 @@ const FoodItem = ({item, handleClick}) => {
     );
 };
 
-export default FoodItem
+export default FoodItem;

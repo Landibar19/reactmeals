@@ -9,9 +9,10 @@ const NavBar = ({setShow, size}) => {
             <span className="my-shop" onClick={() => setShow(true)}>ReactMeals</span>
                 <div className="cart" onClick={() => setShow(false)}>
                     <span>
-                    <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-                    </span>
+                    <button className="shoping-cart">Shopping Cart</button>
+                    <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></span>
                     <span>{size}</span>
+                    
                 </div>
         </div>
     </nav>

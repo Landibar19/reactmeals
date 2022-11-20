@@ -14,7 +14,7 @@ const FoodList = ({handleClick}) => {
             ))};
        
         </section>
-    );
-};
+    )
+}
 
 export default FoodList

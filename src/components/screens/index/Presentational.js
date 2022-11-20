@@ -8,6 +8,6 @@ const AppIndex = () => (
     <div className="app-index-container">
       <Main />
     </div>
-  );
+  )
   
-  export default AppIndex;
+  export default AppIndex

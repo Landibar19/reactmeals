@@ -30,8 +30,8 @@
   }
   
 
-   ];
+   ]
 
-   export default list;
+   export default list
     
    
